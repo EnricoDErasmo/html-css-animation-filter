@@ -92,10 +92,19 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(100%) blur(5px);
-    
+    filter: grayscale(100%) blur(5px);  
 }
-/* /Esercizio 6  /Esercizio 7 */
+
+.ex-8-img{
+    transition-property: border-style filter;
+    transition-duration: 2s;
+}
+
+.ex-8-img:hover{
+    filter:contrast(150%) hue-rotate(100deg);
+    border-radius: 50px;
+}
+/* /Esercizio 6  /Esercizio 7  /Esercizio 8 */
 
 .ex-9-img {
     margin: 50px 100px;
