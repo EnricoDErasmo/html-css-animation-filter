@@ -96,7 +96,7 @@
 }
 
 .ex-8-img{
-    transition-property: border-style filter;
+    transition-property: border-radius filter;
     transition-duration: 2s;
 }
 
@@ -106,10 +106,23 @@
 }
 /* /Esercizio 6  /Esercizio 7  /Esercizio 8 */
 
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+
+    transition-property: border-radius filter margin;
+    transition-duration: 2s;
 }
+
+.ex-9-img:hover{
+    filter: drop-shadow(16px 16px 20px blue) invert(75%);
+    filter: brightness(1.4);
+    margin: 0;
+    border-radius: 80px;
+}
+/* /Esercizio 9 */
+
 .ex-10-icon {
     font-size: 60px;
 }
