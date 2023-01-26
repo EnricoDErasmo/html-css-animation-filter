@@ -111,14 +111,14 @@
     margin: 50px 100px;
     width: 400px;
 
-    transition-property: border-radius filter margin;
+    transition-property: border-radius filter;
     transition-duration: 2s;
 }
 
 .ex-9-img:hover{
-    filter: drop-shadow(16px 16px 20px blue) invert(75%);
+    filter: drop-shadow(16px 16px 20px red) invert(150%);
     filter: brightness(1.4);
-    margin: 0;
+    transform: scale(1.5, 1.5);
     border-radius: 80px;
 }
 /* /Esercizio 9 */
@@ -159,9 +159,6 @@
     animation-iteration-count: infinite;
 }
 /* /Esercizio11 */
-
-
-
 
 
 .ex-12-button, .ex-13-button {
