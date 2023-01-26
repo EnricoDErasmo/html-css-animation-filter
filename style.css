@@ -92,7 +92,8 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(5px);
+    
 }
 /* /Esercizio 6  /Esercizio 7 */
 
