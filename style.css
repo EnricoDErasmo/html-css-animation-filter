@@ -195,13 +195,13 @@
 .ex-12-button:hover .ex-12-top-white{
     transform: translate();
     animation-name: move-1;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
     transform: translate();
     animation-name: move-2;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 @keyframes move-1{
@@ -214,3 +214,37 @@
    100% {transform: translate(40px, 0px);}
 }
 /* /Esercizio 12 */
+
+
+.ex-13-button:hover .ex-13-top-white{
+    transform: translate();
+    animation-name: round-1;
+    animation-duration: 4s;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    transform: translate();
+    animation-name: round-2;
+    animation-duration: 4s;
+}
+
+@keyframes round-1{
+    0% {transform: translate(0px, 0px);}
+    10%{transform: translate(-40px,0px );}
+    25%{transform: translate(-40px,70px);}
+    50%{transform: translate(160px,70px);}
+   75%{transform: translate(160px, 0px);}
+   100%{transform: translate(0px, 0px);}
+}
+
+@keyframes round-2{
+    0% {transform: translate(0px, 0px);}
+    10%{transform: translate(60px,0px );}
+    25%{transform: translate(60px,-70px);}
+    50%{transform: translate(-110px,-70px);}
+   75%{transform: translate(-110px, 0px);}
+   100%{transform: translate(0px, 0px);}
+}
+    
+
+
